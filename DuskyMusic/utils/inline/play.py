@@ -68,11 +68,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
+                text=_["➕ ᴩʟᴀʏʟɪsᴛ ➕"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["✯ ᴄᴘᴀɴᴇʟ ✯"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -123,11 +123,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
+                text=_["➕ ᴩʟᴀʏʟɪsᴛ ➕"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["✯ ᴄᴘᴀɴᴇʟ ✯"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -377,11 +377,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
+                text=_["➕ ᴩʟᴀʏʟɪsᴛ ➕"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["✯ ᴄᴘᴀɴᴇʟ ✯"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
